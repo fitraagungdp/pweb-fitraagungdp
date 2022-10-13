@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9CCDEB;
+    
+}
+
+.container{
+
+    display: block;
+    border-radius: 50px;
+    justify-content: center;
+    background: #F3FBFD;
+    border: 1px solid #c1c1c1;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    overflow: hidden;
+    box-shadow: 100px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.container label{
+    float: left;
+    text-align: left;
+    display: block;
+    padding-bottom: 1.20rem;
+}
+
+.container input{
+    margin-bottom: 1rem;
+    background: white;
+    border: 1px solid wheat;
+    border-radius: 2px;
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
+
+.container input[type=submit]{
+    float: right;
+    height: 50px;
+    width: 1450px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(238, 175, 56);
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container textarea{
+    margin-bottom: 1rem;
+    background: white;
+    border: 1px solid wheat;
+    border-radius: 2px;
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+}
